@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 500px;
+    background-color:aquamarine;
+    overflow-y: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+form > .container {
+    display: flex;
+    gap: 10px;
+    /* padding: 20px; */
+    overflow: visible;
+    position: sticky;
+    top: -1rem;
+    background-color: aquamarine;
+}
+.added .new {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+    max-height: 300px;
+    overflow: auto;
+    transition: ease-in-out .5s;
+}
+/* input[type=button] {
+    position: absolute;
+    right: 0;
+} */
+
+/* .added .new:hover {
+    cursor: pointer;
+
+} */
+
+/* .lineThrough {
+    text-decoration: line-through;
+}
+.not_lineThrough {
+    text-decoration: none;
+} */
