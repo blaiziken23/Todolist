@@ -2,7 +2,6 @@ function isEmptyOrSpaces(str) {
     return str === null || str.match(/^ *$/) !== null;
 };
 
-
 document.getElementById("add").addEventListener("click", (e) => {
     
     e.preventDefault();
@@ -36,8 +35,7 @@ document.getElementById("add").addEventListener("click", (e) => {
     }
     else {
         alert("Add Any Text");
-    }
-
+    }   
 
     document.querySelectorAll("#checkBox").forEach(x => {
         x.addEventListener("click", () => {
@@ -53,7 +51,6 @@ document.getElementById("add").addEventListener("click", (e) => {
 
         });
     });
-
 
     let btnDEl = document.querySelectorAll("#btndel");
     btnDEl.forEach(del => {

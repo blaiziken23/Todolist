@@ -7,12 +7,11 @@
     max-width: 500px;
     background-color:aquamarine;
     overflow-y: auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 form > .container {
     display: flex;
     gap: 10px;
-    /* padding: 20px; */
     overflow: visible;
     position: sticky;
     top: -1rem;
@@ -21,26 +20,26 @@ form > .container {
 .added .new {
     background-color: aliceblue;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     text-align: justify;
     max-height: 300px;
     overflow: auto;
     transition: ease-in-out .5s;
 }
-/* input[type=button] {
-    position: absolute;
-    right: 0;
-} */
-
-/* .added .new:hover {
-    cursor: pointer;
-
-} */
-
-/* .lineThrough {
-    text-decoration: line-through;
+.added .new p {
+    padding: 0 0 0 10px;
 }
-.not_lineThrough {
-    text-decoration: none;
+input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+}
+
+
+
+/* @media only screen and (max-width: 600px) {
+    .added .new {
+        flex-direction: column;
+        width: 100%;
+    }
 } */
